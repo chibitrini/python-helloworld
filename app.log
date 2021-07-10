@@ -1,0 +1,9 @@
+WARNING:werkzeug: * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+INFO:werkzeug: * Running on http://10.122.96.149:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:10.122.96.149 - - [13/Jun/2021 20:15:52] "GET / HTTP/1.1" 200 -
+INFO:app:Status request sucessfull
+INFO:werkzeug:10.122.96.149 - - [13/Jun/2021 20:15:55] "GET /status HTTP/1.1" 200 -
+INFO:app:Metrics request sucessfull
+INFO:werkzeug:10.122.96.149 - - [13/Jun/2021 20:15:59] "GET /metrics HTTP/1.1" 200 -
+INFO:werkzeug:10.122.96.149 - - [13/Jun/2021 20:16:04] "[33mGET /hello HTTP/1.1[0m" 404 -
